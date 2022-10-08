@@ -1,0 +1,158 @@
+/* navbar */
+#navbar {
+    display: flex;
+    font-size: 25px;
+    border-radius: 10px;
+    
+}
+.item:hover{
+    background-color:darkslategray;
+    box-shadow: 10px 10px;
+}
+/* konten */
+.item {
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 40px;
+}
+.h1-porto{
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+.index-content {
+    text-align: left;
+    margin-left: 30px;
+    padding-bottom: 150px;
+}
+.index-project {
+    background-color: darkslategray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.bhs {
+    font-size: 20px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.skill {
+    background-color: darkslategrey;
+    border-radius: 25px;
+    padding: 25px;
+}
+.container-about{
+    text-align: center;
+    padding-bottom: 150px;
+}
+.profil {
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.card {
+    margin: 0px 60px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 25px;
+    border-radius: 25px;
+}
+.card-article{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color:darkslategray
+}
+.card:hover{
+    box-shadow: 10px 10px;
+}
+.card > img {
+    width: 300px;
+    height: 200px;
+}
+.img-porto{
+    width: 100%;
+    height: 100%;
+}
+.container-porto {
+    display: flex;
+    align-items: center;
+}
+.content {
+    display: flex;
+    background-color: beige;
+    border-radius: 25px;
+    margin: 50px;
+}
+.content:hover{
+    box-shadow: 20px 20px;
+}
+.img-porto-1 > img , .img-porto-2 > img , .img-porto-3 > img, .img-porto-4 > img {
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.teks-porto-1 , .teks-porto-2, .teks-porto-3, .teks-porto-4 {
+    padding:0px 30px;
+    margin: 0px 10px;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px ;
+    text-align: center;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 600px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .img-porto-1 > img {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .card-article {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 600px) {
+    .card {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+  }
